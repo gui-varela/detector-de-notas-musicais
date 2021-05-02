@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Detector de notas musicais</title>
+</head>
+<body>
+  <main>
+    <h1>Detector de notas musicais</h1>
+    <div id="main-container">
+      <div id="microphone-container">
+        <h2>input</h2>
+        <div id="microphone-icon-container" onclick="test()">
+          <img id="microphone-icon" src="./assets/microphone-icon.svg" alt="">
+        </div>
+      </div>
+      <div id="nota-container">
+        <h2>output</h2>
+        <span>#</span>
+      </div>
+    </div>
+    <div id="info-container">
+      <img class="info-icon" src="./assets/info-icon.svg" alt="">
+      <span>Clique no microfone para detectar</span>
+    </div>
+  </main>
+  <footer>
+    <p>Grupo: Guilherme Varela</p>
+  </footer>
+
+  <script src="functions.js"></script>
+</body>
+</html>
