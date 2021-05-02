@@ -21,6 +21,7 @@ main {
 
 main h1 {
   font-size: 40px;
+  border-bottom: 3px solid #25b7d3;
 }
 
 main h2 {
